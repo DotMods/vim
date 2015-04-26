@@ -1,8 +1,8 @@
-set rtp+=~/.config/vim
+set rtp+=~/.dotmods/vim
 set shell=bash
-so ~/.config/vim/shortcuts.vim
-so ~/.config/vim/plugins.vim
-so ~/.config/vim/colorscheme.vim
+so ~/.dotmods/vim/shortcuts.vim
+so ~/.dotmods/vim/plugins.vim
+so ~/.dotmods/vim/colorscheme.vim
 
 syntax enable " Enable syntax highlighting
 filetype plugin indent on
@@ -37,9 +37,9 @@ set scrolloff=5     " set minimum space between the cursor and window
 
 
 " Keep temp files out of CWD
-set backupdir=~/.config/vim/tmp/backup
-set directory=~/.config/vim/tmp/swp
-set undodir=~/.config/vim/tmp/undo
+set backupdir=~/.dotmods/vim/tmp/backup
+set directory=~/.dotmods/vim/tmp/swp
+set undodir=~/.dotmods/vim/tmp/undo
 
 
 " Searching

@@ -1,5 +1,5 @@
-so ~/.config/vim/plug.vim/plug.vim
-call plug#begin('~/.config/vim/plug.vim/data')
+so ~/.dotmods/vim/plug.vim/plug.vim
+call plug#begin('~/.dotmods/vim/plug.vim/data')
 
 Plug 'alexdavid/nerdtree_icons'
 Plug 'alexdavid/vim-min-git-status'
